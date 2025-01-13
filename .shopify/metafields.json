@@ -1,0 +1,36 @@
+{
+  "article": [],
+  "blog": [],
+  "brand": [],
+  "collection": [],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [],
+  "product": [
+    {
+      "key": "personalisation_text",
+      "namespace": "custom",
+      "name": "personalisation_text",
+      "description": "Enter Personalisation",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "show_personalisation",
+      "namespace": "custom",
+      "name": "show_personalisation",
+      "description": "Show Personalisation Box",
+      "type": {
+        "name": "boolean",
+        "category": "TRUE_FALSE"
+      }
+    }
+  ],
+  "variant": [],
+  "shop": []
+}
