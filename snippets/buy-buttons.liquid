@@ -37,14 +37,15 @@
       </div>
 
       {%- form 'product', product, id: product_form_id, class: 'form', data-type: 'add-to-cart-form' -%}
-        {%- if product.metafields.custom.hide_personalisation -%}
+        {%- if product.metafields.custom.hide_personalisation_box -%}
         {%- else %}
+          <p>{{ product.metafields.custom.hide_personalisation_box }}</p>
           <div class="line-item-property__field personalization-field">
             <label for="personalisation">Personalisation</label>
             <input
               required
               class="required"
-              placeholder="Enter your personalization here"
+              placeholder="Enter your personalisation here"
               id="personalisation"
               type="text"
               form="{{ product_form_id }}"
