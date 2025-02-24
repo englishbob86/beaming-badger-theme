@@ -55,15 +55,55 @@
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "image_shape": "default",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_KXyMh6": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_yGVjP8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mothers-day-gifts-personalised"
+          }
+        },
+        "featured_collection_xjPJrr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fathers-day-gifts"
+          }
+        },
+        "featured_collection_jMieJm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gifts-for-children-personalised"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_yGVjP8",
+        "featured_collection_xjPJrr",
+        "featured_collection_jMieJm"
+      ],
+      "settings": {
+        "title": "Gifts for all Occasions",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -165,6 +205,7 @@
   "order": [
     "rich_text",
     "featured_collection",
+    "collection_list_KXyMh6",
     "collage",
     "multicolumn"
   ]
