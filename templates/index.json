@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "<strong>Beaming Badger: Personalised Gifts with Care</strong>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Beaming Badger creates unique, personalised wooden and acrylic gifts, including keyrings, earring holders, bookmarks, and more. Our laser-engraved designs make perfect gifts for any occasion.</p><p>We prioritise quality and sustainability, using eco-friendly packaging like biodegradable tissue and recyclable boxes. Each item is crafted with care, embracing the natural beauty of wood.</p>"
           }
         }
       },
@@ -34,8 +34,8 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
+        "full_width": false,
+        "padding_top": 16,
         "padding_bottom": 0
       }
     },
