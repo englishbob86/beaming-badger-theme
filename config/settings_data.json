@@ -194,6 +194,17 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
+      },
+      "scheme-fd7fc334-6ccd-4784-829d-1f97bb52b78c": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "radial-gradient(rgba(242, 242, 242, 1), rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)",
+          "text": "#121212",
+          "button": "{{ shop.brand.colors.primary[0].background }}",
+          "button_label": "#ea1f1f",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
       }
     }
   },
