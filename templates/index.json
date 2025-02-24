@@ -73,7 +73,7 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": "personalised-gifts"
+            "collection": "gifts-for-children-personalised"
           }
         },
         "product": {
@@ -86,7 +86,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "personalised-keyring"
+            "collection": "fathers-day-gifts"
           }
         }
       },
@@ -106,28 +106,15 @@
         "padding_bottom": 36
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Wooden_Earring_holders_3.png",
+            "title": "<strong>Featured Products: Earring Holders</strong>",
+            "text": "<p>Personalised earring holders in wood and acrylic, available in various sizes. Laser-engraved with custom names or designs, these stylish stands hold up to 25 pairs of earrings and make the perfect gift or home accessory.</p>",
             "link_label": "",
             "link": ""
           }
@@ -135,17 +122,18 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<strong>Customer Reviews</strong>",
+            "text": "<p>Our customers love our personalised gifts! Here’s what they’re saying:</p><p>⭐️⭐️⭐️⭐️⭐️ <em>\"Absolutely beautiful keyring! The engraving was perfect, and it made the perfect gift for my mum. Highly recommend!\"</em> – Emily R.</p><p>⭐️⭐️⭐️⭐️⭐️ <em>\"The earring holder is stunning! The quality is amazing, and the personal touch made it extra special. Fast shipping, too!\"</em> – Sarah M.</p><p>Join our happy customers and find your perfect gift today!</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column3": {
+        "column_h8fwmF": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/il_fullxfull.3930174485_tqbw.jpg",
+            "title": "<strong>Personalised Gifts</strong>",
+            "text": "<p>Create the perfect custom gift with our range of personalised products. From keyrings to earring holders, each item can be engraved with names, special messages, or unique designs to make your gift truly one-of-a-kind. Ideal for any occasion!</p>",
             "link_label": "",
             "link": ""
           }
@@ -154,7 +142,7 @@
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column_h8fwmF"
       ],
       "settings": {
         "title": "",
@@ -178,7 +166,6 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "video",
     "multicolumn"
   ]
 }

@@ -32,8 +32,8 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+            "heading": "<strong>Our mission</strong>",
+            "subtext": "<p>At Beaming Badger, our mission is to create meaningful, personalised gifts that bring joy to every occasion. We are committed to crafting high-quality, customisable products with a focus on sustainability. From eco-friendly packaging to the careful selection of materials, we aim to offer unique gifts that make a lasting impression while being kind to the planet.</p>"
           }
         }
       },
