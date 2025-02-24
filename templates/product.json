@@ -41,16 +41,16 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
         },
         "description": {
           "type": "description",
@@ -78,8 +78,8 @@
         "caption",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
+        "quantity_selector",
         "description",
         "collapsible-row-1",
         "share"
