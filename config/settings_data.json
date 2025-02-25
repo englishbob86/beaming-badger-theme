@@ -220,7 +220,7 @@
       "scheme-3d88bd50-efa3-47d5-9a46-dae8137c09bc": {
         "settings": {
           "background": "{{ shop.brand.colors.primary[0].background }}",
-          "background_gradient": "linear-gradient(270deg, rgba(238, 130, 52, 1), rgba(249, 208, 163, 1) 100%)",
+          "background_gradient": "linear-gradient(270deg, rgba(240, 240, 240, 1), rgba(249, 208, 163, 1) 100%)",
           "text": "#121212",
           "button": "#121212",
           "button_label": "#ffffff",
