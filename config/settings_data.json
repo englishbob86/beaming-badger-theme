@@ -209,7 +209,7 @@
       "scheme-6c4e32a6-7b0e-4ef2-bb2b-37a612749f1f": {
         "settings": {
           "background": "{{ shop.brand.colors.primary[0].background }}",
-          "background_gradient": "linear-gradient(36deg, rgba(217, 21, 135, 0.36), rgba(249, 7, 148, 1) 28%, rgba(246, 24, 24, 1) 80%, rgba(252, 87, 43, 1) 100%)",
+          "background_gradient": "radial-gradient(rgba(236, 18, 145, 0.6), rgba(249, 161, 245, 1) 28%, rgba(255, 187, 187, 1) 61%, rgba(198, 85, 54, 1) 89%)",
           "text": "#121212",
           "button": "#121212",
           "button_label": "#ffffff",
