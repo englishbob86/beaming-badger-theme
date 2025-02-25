@@ -197,11 +197,11 @@
       },
       "scheme-fd7fc334-6ccd-4784-829d-1f97bb52b78c": {
         "settings": {
-          "background": "#ffffff",
-          "background_gradient": "radial-gradient(rgba(242, 242, 242, 1), rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)",
+          "background": "#ee66b5",
+          "background_gradient": "linear-gradient(0deg, rgba(242, 242, 242, 1), rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)",
           "text": "#121212",
           "button": "{{ shop.brand.colors.primary[0].background }}",
-          "button_label": "#ea1f1f",
+          "button_label": "#ee66b5",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
@@ -209,7 +209,18 @@
       "scheme-6c4e32a6-7b0e-4ef2-bb2b-37a612749f1f": {
         "settings": {
           "background": "{{ shop.brand.colors.primary[0].background }}",
-          "background_gradient": "linear-gradient(36deg, rgba(217, 21, 135, 1), rgba(249, 7, 148, 1) 28%, rgba(246, 24, 24, 1) 80%, rgba(252, 87, 43, 1) 100%)",
+          "background_gradient": "linear-gradient(36deg, rgba(217, 21, 135, 0.36), rgba(249, 7, 148, 1) 28%, rgba(246, 24, 24, 1) 80%, rgba(252, 87, 43, 1) 100%)",
+          "text": "#121212",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-3d88bd50-efa3-47d5-9a46-dae8137c09bc": {
+        "settings": {
+          "background": "{{ shop.brand.colors.primary[0].background }}",
+          "background_gradient": "linear-gradient(270deg, rgba(238, 130, 52, 1), rgba(249, 208, 163, 1) 100%)",
           "text": "#121212",
           "button": "#121212",
           "button_label": "#ffffff",
