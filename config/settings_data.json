@@ -197,8 +197,8 @@
       },
       "scheme-fd7fc334-6ccd-4784-829d-1f97bb52b78c": {
         "settings": {
-          "background": "#ee66b5",
-          "background_gradient": "linear-gradient(0deg, rgba(242, 242, 242, 1), rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)",
+          "background": "{{ shop.brand.colors.primary[0].background }}",
+          "background_gradient": "linear-gradient(150deg, rgba(243, 243, 243, 1), rgba(249, 208, 163, 1) 100%)",
           "text": "#121212",
           "button": "{{ shop.brand.colors.primary[0].background }}",
           "button_label": "#ee66b5",
