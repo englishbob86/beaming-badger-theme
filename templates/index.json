@@ -9,17 +9,6 @@
  */
 {
   "sections": {
-    "black_friday_splash_screen_FAjCVe": {
-      "type": "black-friday-splash-screen",
-      "name": "Black Friday Splash Screen",
-      "settings": {
-        "heading": "Black Friday Sale!",
-        "text": "<p>Get ready for amazing deals this Black Friday. Don't miss out!</p>",
-        "button_label": "Shop Now",
-        "button_link": "",
-        "show_only_once": false
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -175,7 +164,6 @@
     }
   },
   "order": [
-    "black_friday_splash_screen_FAjCVe",
     "featured_collection",
     "rich_text",
     "collection_list_KXyMh6",
