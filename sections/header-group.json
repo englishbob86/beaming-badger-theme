@@ -17,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Black Friday Sale! 15% off everything! Free UK shipping on most products",
-            "link": ""
+            "text": "Black Friday Sale! 15% off everything when you spend £10!",
+            "link": "shopify://collections/all"
           }
         }
       },
