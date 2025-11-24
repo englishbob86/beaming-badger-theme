@@ -1,0 +1,58 @@
+{% comment %}
+  Black Friday Splash Screen
+{% endcomment %}
+
+<div id="BlackFridaySplashScreen" class="black-friday-splash-screen">
+  <div class="black-friday-splash-screen__content">
+    <h2>Black Friday Sale!</h2>
+    <p>Get ready for amazing deals this Black Friday. Don't miss out!</p>
+    <button id="BlackFridaySplashScreenClose" class="black-friday-splash-screen__close-button">Shop Now</button>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "BF Splash Screen",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Black Friday Sale!",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "default": "<p>Get ready for amazing deals this Black Friday. Don't miss out!</p>",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "default": "Shop Now",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_only_once",
+      "default": true,
+      "label": "Show only once per session"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Black Friday Splash Screen"
+    }
+  ]
+}
+{% endschema %}
