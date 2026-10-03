@@ -29,9 +29,35 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "announcement_bar_nmJKJd": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_hM9jbF": {
+          "type": "announcement",
+          "settings": {
+            "text": "Buy any 3, save 10% – order by 11 Dec for Christmas",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_hM9jbF"
+      ],
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "announcement_bar_nmJKJd"
   ]
 }
